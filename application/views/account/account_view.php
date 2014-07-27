@@ -13,7 +13,7 @@
 		
 		@font-face {
 		    font-family: TS_Country;
-		    src: url("<?=base_url(); ?>font/TS-Country-C-NP.ttf");
+		    src: url("<?=base_url(); ?>font/MOD20.ttf");
 		}
 		.row{
 			margin:0px;
@@ -28,7 +28,7 @@
 	<div id="container-fluid">
 		<div class="row" style="background-color:#3c8dbc;">
 			<div class="col-md-2 text-center" style="background-color:#367fa9;">
-				<h1 style="font-family:TS_Country;color:#fff;">freedomsaving</h1>
+				<h1 style="font-family:TS_Country;color:#fff;">Freedomsaving</h1>
 			</div>
 			<div class="col-md-7">
 				dsdd
