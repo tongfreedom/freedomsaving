@@ -8,46 +8,45 @@
 	<link rel="stylesheet" type="text/css" href="<?=base_url(); ?>css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="<?=base_url(); ?>jquery-ui/jquery-ui.css" />
 	<link rel="stylesheet" type="text/css" href="<?=base_url(); ?>bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="<?=base_url(); ?>css/style.css" />
 	
 	<style type="text/css">
-		
-		@font-face {
-		    font-family: TS_Country;
-		    src: url("<?=base_url(); ?>font/MOD20.ttf");
-		}
-		.row{
-			margin:0px;
-		}
+
 	</style>
 
 	<script src="<?=base_url(); ?>js/jquery-1.11.1.js"></script>
 	<script src="<?=base_url(); ?>js/jquery-ui.js"></script>
 	<script src="<?=base_url(); ?>bootstrap/js/bootstrap.js"></script>
 </head>
-<body>
-	<div id="container-fluid">
-		<div class="row" style="background-color:#3c8dbc;">
-			<div class="col-md-2 text-center" style="background-color:#367fa9;">
-				<h1 style="font-family:TS_Country;color:#fff;">Freedomsaving</h1>
-			</div>
-			<div class="col-md-7">
-				dsdd
-			</div>	
-			<div class="col-md-3">
-				user
-			</div>
-		</div>
-		<div class="row" style="background-color:#ddd;">
-			<div class="col-md-2" style="background-color:#ddd;">
-				menu
-			</div>
-			<div class="col-md-10" style="background-color:#fff;min-height:600px;">
-				content
-				<div style="position:absolute;bottom:0px;">
-					footer
-				</div>
-			</div>	
-		</div>
-	</div>
-</body>
+    <body>
+        <div class="container-fluid div-header">
+            <header class="row">
+                <div class="col-md-2 text-center">
+                    <a href="account.html">
+                        <h3 class="logo">
+                            Freedomsaving
+                        </h3>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    ds
+                </div>
+                <div class="col-md-8 text-right">
+                    user-menu
+                </div>
+            </header>
+        </div>
+        <div class="container-fluid div-body">
+            <div class="row" style="height:100%;">
+                <nav class="col-md-2" style="min-height:100%;">
+                    ff
+                </nav>
+                <article class="col-md-10" style="min-height:100%;">
+                    <footer class="text-center">
+                        Designed by tongfreedom
+                    </footer>
+                </article>
+            </div>
+        </div>        
+    </body>
 </html>
