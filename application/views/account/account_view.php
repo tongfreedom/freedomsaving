@@ -39,7 +39,13 @@
         <div class="container-fluid div-body">
             <div class="row" style="height:100%;">
                 <nav class="col-md-2" style="min-height:100%;">
-                    ff
+                    <ul class="nav nav-pills nav-stacked menu">
+                        <li><i class="glyphicon glyphicon-asterisk"></i> รายรับ-รายจ่าย</li>
+                        <li>บัญชี</li>
+                        <li>งบประมาณ</li>
+                        <li>เป้าหมายทางการเงิน</li>
+                        <li>รายงาน</li>
+                    </ul>
                 </nav>
                 <article class="col-md-10" style="min-height:100%;">
                     <footer class="text-center">
